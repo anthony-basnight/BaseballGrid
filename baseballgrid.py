@@ -216,7 +216,7 @@ def guess(chosen_teams, chosen_players, solved, players_guessed, keep_going, all
                         temp_team += tokens[i] + ' '
                 if len(tokens[i]) == 9 and tokens[i][4] == '-':
                     add = True
-            print(player_teams)
+            # print(player_teams)
 
             correct_set = []
             for i in range(3):
